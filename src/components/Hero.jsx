@@ -8,11 +8,11 @@ import {fadeIn} from "../utilities/motion.js"
 function Hero() {
   const [text] = useTypewriter({
     words: [
-      " Designers.",
-      " Developers.",
-      " Editors.",
-      " Builders.",
-      " Enthusiasts.",
+      " Designer.",
+      " Developer.",
+      " Editor.",
+      " Builder.",
+      " Enthusiast.",
     ],
     loop: 0,
     delaySpeed: 320,
@@ -44,14 +44,14 @@ function Hero() {
             <div className="flex h-4 justify-center violet-gradient w-3/4 rounded"></div>
           </h1>
           <h1 className={`${styles.heroHeadText} customFont`}>
-            We Are
+            I am a
             <span className="text-[#915EFF]">{text}</span>
             <span className="text-[#915EFF]">
               <Cursor />
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 paragraphFont font-extralight text-white-100`}>
-            We develop eye catching user <br className="sm:block hidden" />
+            I develop eye catching user <br className="sm:block hidden" />
             interfaces and web applications
           </p>
           <div className="flex gap-2 mt-2">

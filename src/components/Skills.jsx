@@ -53,10 +53,10 @@ function Skills() {
           Skills
         </p>
         <h1 className={`${styles.sectionSubHeadText} customFont`}>
-          WHAT WE CAN OFFER.
+          WHAT I CAN OFFER.
         </h1>
         <p className={`${styles.sectionSubText} text-secondary`}>
-          These are the specific skills and technologies that we can offer and
+          These are the specific skills and technologies that I can offer and
           might help you.
         </p>
       </motion.div>
@@ -75,7 +75,7 @@ function Skills() {
               Interfaces that wow, workflows that flow.
             </p>
             <div className="mt-4 h-12 flex items-center justify-center px-10 rounded-[100vmax] custom-gradient custom-shadow">
-              <Link to="" className="paragraphFont ">
+              <Link to="" className="paragraphFont text-white">
                 Contact now
               </Link>
             </div>
@@ -93,10 +93,10 @@ function Skills() {
               PC Building/Repair
             </h1>
             <p className={`${styles.sectionSubText} paragraphFont`}>
-              We bring your PC back to life. Upgrading? We've got you covered.
+              I can bring your PC back to life. Upgrading? I've got you covered.
             </p>
             <div className="mt-4 h-12 flex items-center justify-center px-10 rounded-[100vmax] blue-gradient custom-shadow">
-              <Link to="" className="paragraphFont ">
+              <Link to="" className="paragraphFont text-white ">
                 Contact now
               </Link>
             </div>
@@ -118,7 +118,7 @@ function Skills() {
               social media.
             </p>
             <div className="mt-4 h-12 flex items-center justify-center px-10 rounded-[100vmax] orange-gradient custom-shadow">
-              <Link to="" className="paragraphFont ">
+              <Link to="" className="paragraphFont text-white">
                 Contact now
               </Link>
             </div>
@@ -139,7 +139,7 @@ function Skills() {
               Get your message seen, heard, and remembered.
             </p>
             <div className="mt-4 h-12 flex items-center justify-center px-10 rounded-[100vmax] green-gradient custom-shadow">
-              <Link to="" className="paragraphFont ">
+              <Link to="" className="paragraphFont text-white">
                 Contact now
               </Link>
             </div>
@@ -157,11 +157,11 @@ function Skills() {
               Content Creation
             </h1>
             <p className={`${styles.sectionSubText} paragraphFont`}>
-              We don't just create content, we create conversations. Content
+              I don't just create content, I create conversations. Content
               that's as unique as you are.
             </p>
             <div className="mt-4 h-12 flex items-center justify-center px-10 rounded-[100vmax] green-pink-gradient custom-shadow">
-              <Link to="" className="paragraphFont ">
+              <Link to="" className="paragraphFont text-white">
                 Contact now
               </Link>
             </div>

@@ -24,11 +24,15 @@ function Navbar() {
   }, []);
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-[#03000C]" : "bg-transparent"
-      }`}
+      className={`
+    ${styles.paddingX} 
+    w-full flex items-center py-3 fixed top-0 z-20 
+    ${
+      scrolled
+        ? "bg-background/90 backdrop-blur-md shadow-sm"
+        : "bg-transparent"
+    }
+  `}
     >
       <div className="w-full flex justify-between max-w-screen-2xl mx-auto items-center">
         <Link
@@ -39,30 +43,32 @@ function Navbar() {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="h-12 " />
+          <h1 className=" paragraphFont text-[24px]  paragraphFont md:text-left text-center pink-text-gradient my-2 uppercase">
+            .Srmcll
+          </h1>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-8">
           <li className="hover:text-[#DF6BBE] text-[#7E66F8] transition-colors paragraphFont duration-300 text-[16px] font-[400] cursor-pointer">
             <Link
-              to="/gracien"
+              to="/"
               onClick={() => {
                 setActive("");
                 window.scrollTo(0, 0);
               }}
             >
-              Gracien
+              Home
             </Link>
           </li>
           <li className="hover:text-[#DF6BBE] text-[#7E66F8] transition-colors paragraphFont duration-300 text-[16px] font-[400] cursor-pointer">
             <Link
-              to="/aenon "
+              to="/sarah"
               onClick={() => {
                 setActive("");
                 window.scrollTo(0, 0);
               }}
             >
-              Aenon
+              About me
             </Link>
           </li>
         </ul>
@@ -98,7 +104,7 @@ function Navbar() {
                 window.scrollTo(0, 0);
               }}
             >
-              <Link to="">Aenon</Link>
+              <Link to="/">Home</Link>
             </li>
             <li
               className="hover:text-[#DF6BBE] paragraphFont transition-colors duration-300 text-[16px] font-[400] cursor-pointer"
@@ -108,7 +114,7 @@ function Navbar() {
                 window.scrollTo(0, 0);
               }}
             >
-              <Link to="">Gracien</Link>
+              <Link to="/sarah">About me</Link>
             </li>
           </ul>
         </div>

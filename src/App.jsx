@@ -1,9 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
-import Gracien from "./components/Gracien";
+import Sarah from "./components/Sarah";
 import Footer from "./components/Footer"
-import Aenon from "./components/Aenon";
 
 function App() {
   return (
@@ -12,8 +11,7 @@ function App() {
       <div className=" max-w-screen-2xl mx-auto"></div>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/gracien" element={<Gracien />} />
-        <Route path="/aenon" element={<Aenon/>}/>
+        <Route path="/sarah" element={<Sarah />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
