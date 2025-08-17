@@ -2,7 +2,7 @@ import React from "react";
 import { styles } from "../style";
 
 import ACert from "../assets/Image (41).jpg";
-import ACert1 from "../assets//Image (42).jpg";
+import ACert1 from "../assets/Image (42).jpg";
 import ACert2 from "../assets/Image (43).jpg";
 import ACert3 from "../assets/Image (44).jpg";
 import ACert4 from "../assets/Image (45).jpg";
