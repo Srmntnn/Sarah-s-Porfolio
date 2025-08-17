@@ -1,13 +1,13 @@
 import React from "react";
 import { styles } from "../style";
 
-import ACert from "../assets/SarahFile/Image (41).jpg";
-import ACert1 from "../assets/SarahFile/Image (42).jpg";
-import ACert2 from "../assets/SarahFile/Image (43).jpg";
-import ACert3 from "../assets/SarahFile/Image (44).jpg";
-import ACert4 from "../assets/SarahFile/Image (45).jpg";
-import ACert5 from "../assets/SarahFile/Image (46).jpg";
-import ACert6 from "../assets/SarahFile/Image (47).jpg";
+import ACert from "../assets/Image (41).jpg";
+import ACert1 from "../assets//Image (42).jpg";
+import ACert2 from "../assets/Image (43).jpg";
+import ACert3 from "../assets/Image (44).jpg";
+import ACert4 from "../assets/Image (45).jpg";
+import ACert5 from "../assets/Image (46).jpg";
+import ACert6 from "../assets/Image (47).jpg";
 
 function Certificates() {
   return (
